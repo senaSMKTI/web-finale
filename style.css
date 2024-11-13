@@ -1,0 +1,70 @@
+html, body {
+    max-width: 70%;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+    height: 80px;
+    background-color: yellow;
+}
+
+.logo {
+    margin: 0 20px;
+}
+
+ul {
+    display: flex;
+}
+
+ul > li {
+    list-style: none;
+    /* gap: 1em; */
+    padding: 10px;
+}
+
+ul > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+ul > li > a:hover {
+    color: orange;
+}
+
+footer {
+    /* height: 60px; */
+    background-color: yellow;
+    text-align: center;
+    padding: 8px 0;
+    position: fixed;
+    bottom: 0;
+    width: 80%;
+}
+
+.container {
+    /* border: solid 1px black; */
+    background-color: #7777773b;
+    margin: 10px 0px;
+    padding: 10px;
+}
+
+.judul {
+    font-weight: bolder;
+    font-size: larger;
+    margin: 0 0 6px 0;
+}
+
+.post {
+    /* border: 1px solid red; */
+    background-color: aliceblue;
+    padding: 10px 6 6 6;
+    margin: 10;
+}
+
+.title {
+    font-weight: bold;
+}
